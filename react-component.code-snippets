@@ -19,6 +19,7 @@
     "prefix": "rc",
     "body": [
       "import type { FC } from 'react';",
+			"",
 			"export const $TM_FILENAME_BASE: FC = () => {",
 			"  return (",
 			"    <div>",
@@ -28,6 +29,7 @@
 			"};",
 			"",
 			"export default $TM_FILENAME_BASE;",
+			"",
 		],
     "description": "React Functional Component"
   }
